@@ -1,0 +1,88 @@
+#outerbody{
+    padding-left: 5%;
+    padding-top: 2%;
+    margin: 3%;
+    min-height: 85vh;
+    max-height: 500px;
+    width: 40vw;
+    border: solid 2px black;
+    display: flex;
+    flex-direction: column;
+    overflow: scroll;
+    background-color: black;
+}
+
+#outerbody div{
+    height: 15%;
+    width: 90%;
+    margin-bottom: 2%;
+}
+#outerbody>section{
+    border-bottom: 2px solid white;
+}
+#screen{
+    margin-bottom: 2%;
+   color: rgb(161, 155, 155);
+    min-height: 70px;
+    max-width: auto;
+    width: 90%;
+    text-align: right;
+    font-weight: 700;
+    font-size: 3.5rem;
+     border: solid 2px black;
+     overflow-x: auto;
+     
+  
+}
+#screen2{
+   color: rgb(161, 155, 155);
+    min-height: 50px;
+    max-width: auto;
+    width: 90%;
+    text-align: right;
+    font-weight: 700;
+    font-size: 2rem;
+    border-bottom: 1px solid rgb(44, 44, 44);
+    /* border-left: 1px solid rgb(44, 44, 44); */
+    /* border-radius: 40%; */
+     overflow-x: auto;
+  
+}
+#row{
+    display: grid;
+    margin-top:2%;
+    grid-template-columns  : 1fr 1fr 1fr 1fr;
+    justify-content: center;
+}
+#row2{
+    display: grid;
+    margin-top:2%;
+    grid-template-columns  : 2fr 1fr 1fr;
+    justify-content: center;
+}
+.ele{
+    border: solid 2px rgb(161, 155, 155);
+    height:80%;
+    width: auto;
+    border-radius: 40% !important;
+    text-align: center;
+    margin: 2%;
+    font-weight: 700;
+    font-size: 1.5rem;
+    background-color: rgba(20, 20, 20, 0.808);
+    
+}
+/* #zero{
+    height:80% !important;
+    padding-top: 10% !important;
+} */
+#outerbody div section{
+    
+    padding-top: 20%;
+}
+.hightlight{
+    color: rgb(32, 223, 32);
+}
+.highlight{
+    color: white;
+}
